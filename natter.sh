@@ -1,6 +1,6 @@
-phrases=("apple" "banana" "cherry" "date")
+phrases=("Hi Ainslie" "You are doing such a good job" "Keep up the good work" "Press those buttons baby")
 
 for p in "${phrases[@]}"; do
-    sleep 5
+    sleep 300
     say $p
 done
